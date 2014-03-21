@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+dur="indefinite" viewport-fill="white">
+<script><![CDATA[
+var anim=document.getElementById( "anim" );
+var v=createSharedVariable( "kick" );
+v.addUpdateListener( function () { anim.beginElement(); } );
+]]></script>
+<rect x="0" y="260" width="200" height="200" fill="blue">
+<animateTransform xml:id="anim" attributeName="transform"
+begin="indefinite" type="translate" to="1080,0" dur="3s" fill="freeze"/>
+</rect>
+</svg>

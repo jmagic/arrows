@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+dur="indefinite" viewport-fill="white">
+<script><![CDATA[
+var anim=document.getElementById( "anim" );
+var rect=document.getElementById( "rect" );
+var v=createSharedArray( "kick" );
+v.addUpdateListener( function ( sv ) {
+rect.setAttribute( "fill", sv.value[0] );
+anim.beginElement();
+} );
+]]></script>
+<rect xml:id="rect" display="none" x="540" y="260" width="200"
+height="200" fill="blue">
+<animate xml:id="anim" attributeName="display" begin="indefinite"
+to="inherit" dur="1s"/>
+</rect>
+</svg>

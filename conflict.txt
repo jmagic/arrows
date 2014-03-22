@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 oh my
+=======
+this will be 
+where 
+the conficts
+occur.
+
+:(
+>>>>>>> origin/master
